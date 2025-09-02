@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Belled — Work in Progress</title>
+    <meta name="description" content="Belled — Work in Progress" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Rotating bell badge using image.png -->
+    <div class="badge bell-badge" aria-hidden="true">
+      <div class="bell-circle">
+        <img src="image.png" alt="Bell" />
+      </div>
+    </div>
+
+      <!-- Full page grid + centered content -->
+    <main class="frame" role="main">
+      <div class="grid"></div>
+      <section class="content" aria-live="polite">
+        <h1 class="stroke up">Work in Progress</h1>
+        <h1 class="solid"><span id="typed" class="typed" aria-label="Work in Progress"></span></h1>
+        <h1 class="stroke down">Work in Progress</h1>
+      </section>
+
+      <!-- Ticket removed as requested -->
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
